@@ -76,3 +76,41 @@ ps -A | grep youtube
 
 ![image](https://github.com/ananthan05/Android-Security/assets/140697378/f00bf598-bf52-4067-a1b4-17bf9fb15dca)
 
+> pm path is used to get the path of the installed APK file.
+
+```
+pm  path com.google.android.youtube
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/70232106-71e0-4718-bebc-1639f5a2c75e)
+
+then `Exit`
+
+```
+adb pull /product/app/YouTube/YouTube.apk
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/29989c6f-3f49-4e79-b15b-9545f943f535)
+
+```
+dir
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/b2d393d1-85b6-4045-afe0-cb37afb200f0)
+
+```
+echo "This is some file" > somefile.txt
+```
+```
+adb push somefile.txt /sdcard/
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/1d945f0e-4bae-4194-be98-7dcf9d28db9b)
+
+`somefile` got txt.
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/c3f80efc-125c-4a7a-add0-a34d02d822a0)
+
+
+
+
