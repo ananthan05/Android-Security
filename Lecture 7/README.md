@@ -27,12 +27,12 @@ The WHERE clause condition gets evaluated to FALSE or TRUE which is equivalent t
 
  ![image](https://github.com/ananthan05/Android-Security/assets/140697378/d16ec968-4e3b-45c9-b55f-1079f4fec4fb)
 
-We enter a sensitive path like `file:///data/data/jakhar.aseem.diva/jakhar.aseem.diva_preferences.xml`
+We enter a sensitive path like `file:///data/data/jakhar.aseem.diva/shared_prefs/jakhar.aseem.diva_preferences.xml`
 
 which only the application has access to and normal user of the device does not have access to. We observe
 that the file contents are displayed in the WebView.
 
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/95181e68-a3e1-48d3-908e-6f28ccfabd3a)
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/8d41c188-d959-44a5-8b89-d9c4bed0fe2f)
 
 We observe the decompiled source code and open the InputValidation2URISchemeActivity in the JADX.
 
