@@ -18,12 +18,18 @@ Activate Python Virtual Environemnt
 Step 2: Download Androwarn
 Download the Androwarn tool from its official GitHub repository.
 
-> git clone https://github.com/maaaaz/androwarn.git
+```
+ git clone https://github.com/maaaaz/androwarn.git
+```
+```
 cd androwarn
+```
 
 Install all required packages from requirement.txt
 
-> pip install requirement.txt
+```
+pip install requirement.txt
+```
 
 <img width="1427" alt="image" src="https://github.com/SantoshKumarP1412/Android-Security/assets/140537888/1cc41148-40ce-4819-b9f2-7eb093321dcf">
 
@@ -41,8 +47,9 @@ Step 3: Manually Install Androguard
 
 Step 4: Run Androwarn
 
-
-> python androwarn.py -i diva-beta.apk -r html -v 3
+```
+ python androwarn.py -i diva-beta.apk -r html -v 3
+```
 
 Execute Androwarn to analyze the APK file. diva-beta.apk with the path to your APK file.
 
@@ -51,6 +58,8 @@ Execute Androwarn to analyze the APK file. diva-beta.apk with the path to your A
 Step 5: Review the Output
 
 Androwarn will generate a detailed report based on the analysis of the APK file. This report will highlight various aspects such as potential security issues, suspicious behaviors, and other vulnerabilities.
+
+![WhatsApp Image 2024-06-09 at 16 24 19_9612217f](https://github.com/ananthan05/Android-Security/assets/140697378/a35988c8-1613-4902-ad0d-ab90f037aa5f)
 
 Step 6: Interpret the Results
 
