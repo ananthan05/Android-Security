@@ -34,3 +34,33 @@ The purpose of CDF is to provide more efficient testing tool to developers and s
 [CDF](https://github.com/kudelskisecurity/cdf)Refer this for more information.
 
 
+## INSTALLATION
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/6e389c52-b90e-46ae-8e64-4db65145801d)
+
+```
+git clone https://github.com/kudelskisecurity/cdf.git
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/70d734d6-fe5d-4417-a478-d3da45978a85)
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/e2426f0a-ffc6-488a-b1c8-3319bd568e8c)
+
+## First build the cdf binary.
+
+```
+ make examples-all
+```
+ will build all the examples.
+ 
+ while 
+ ```
+make examples-go
+```
+ will only build the Go examples.
+
+```
+make test
+```
+will run unit tests (of CDF).
+
