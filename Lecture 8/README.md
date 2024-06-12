@@ -10,3 +10,20 @@ by pressing `view API CREDENTIALS`
 
 Our aim is without any userinteraction we need acces that `API CREDENTIALS`
 
+When we open the adb logcat and click on the button, we can find the activity name. 
+Command
+
+```
+logcat | grep -i “APICredActivity”
+```
+
+![image](https://github.com/ananthan05/Android-Security/assets/140697378/1543bc72-2ca3-44ec-b027-fb3a1e242b76)
+
+So we run the following command:
+
+```
+adb shell am start –n jakhar.aseem.diva/.APICredsActivity
+```
+
+and confirm that when we run the following command with the device on the screen with the button.And it automatically shows the screen with the credentials without restrictions, like we had pressed the button.
+
